@@ -1,0 +1,54 @@
+{
+    "extendedLocation": null,
+    "id": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/contosoPurview/providers/Microsoft.Purview/accounts/ContosoPurview",
+    "identity": {
+        "principalId": "909844be-5de6-4695-a950-05846e915249",
+        "tenantId": "aaaa-2222-cccc-4444-eeee",
+        "type": "SystemAssigned"
+    },
+    "kind": "",
+    "location": "eastus2",
+    "managedBy": "",
+    "name": "ContosoPurview",
+    "plan": null,
+    "properties": {
+        "cloudConnectors": {
+            "awsExternalId": "5cc85013-97d8-4b71-bb6c-7294dc59c2da"
+        },
+        "createdAt": "2020-12-03T21:33:57.3060178Z",
+        "createdBy": "hoge@contoso.com",
+        "createdByObjectId": "b73aae61-9782-45ab-9a24-bb5d09d7af7c",
+        "endpoints": {
+            "catalog": "https://contosopurview.catalog.purview.azure.com",
+            "guardian": "https://contosopurview.guardian.purview.azure.com",
+            "scan": "https://contosopurview.scan.purview.azure.com"
+        },
+        "friendlyName": " Contoso",
+        "managedResourceGroupName": "managed-rg-pnmxcyy",
+        "managedResources": {
+            "eventHubNamespace": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/managed-rg-pnmxcyy/providers/Microsoft.EventHub/namespaces/Atlas-9d0c2cc5-b760-4ba4-8f3b-1b7917597167",
+            "resourceGroup": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/managed-rg-pnmxcyy",
+            "storageAccount": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/managed-rg-pnmxcyy/providers/Microsoft.Storage/storageAccounts/scaneastus2gbgcdha"
+        },
+        "privateEndpointConnections": [],
+        "provisioningState": "Succeeded",
+        "publicNetworkAccess": "Enabled",
+        "systemData": {
+            "createdAt": "2020-12-03T21:33:57.3060178Z",
+            "createdBy": "hoge@contoso.com",
+            "createdByType": "User",
+            "lastModifiedAt": "2020-12-03T21:33:57.3060178Z",
+            "lastModifiedByType": "User"
+        }
+    },
+    "resourceGroup": "contosopurview",
+    "sku": {
+        "capacity": 3,
+        "name": "Standard"
+    },
+    "subscriptionId": "aaaa-bbbb-cccc-dddd-eeee",
+    "tags": {},
+    "tenantId": "aaaa-2222-cccc-4444-eeee",
+    "type": "microsoft.purview/accounts",
+    "zones": null
+}

@@ -1,0 +1,33 @@
+{
+    "extendedLocation": null,
+    "id": "/subscriptions/1111-2222-3333-4444-5555/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationsManagement/solutions/NetworkMonitoring(defaultworkspace-1111-2222-3333-4444-5555-eus)",
+    "identity": null,
+    "kind": "",
+    "location": "eastus",
+    "managedBy": "",
+    "name": "NetworkMonitoring(defaultworkspace-1111-2222-3333-4444-5555-eus)",
+    "plan": {
+        "name": "NetworkMonitoring(defaultworkspace-1111-2222-3333-4444-5555-eus)",
+        "product": "OMSGallery/NetworkMonitoring",
+        "promotionCode": "",
+        "publisher": "Microsoft"
+    },
+    "properties": {
+        "containedResources": [
+            "/subscriptions/1111-2222-3333-4444-5555/resourcegroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/defaultworkspace-1111-2222-3333-4444-5555-eus/views/NetworkMonitoring(defaultworkspace-1111-2222-3333-4444-5555-eus)"
+        ],
+        "creationTime": "Wed, 07 Mar 2018 04:08:24 GMT",
+        "lastModifiedTime": "Fri, 04 Sep 2020 02:45:46 GMT",
+        "provisioningState": "Succeeded",
+        "workspaceResourceId": "/subscriptions/1111-2222-3333-4444-5555/resourcegroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/defaultworkspace-1111-2222-3333-4444-5555-eus"
+    },
+    "resourceGroup": "defaultresourcegroup-eus",
+    "sku": null,
+    "subscriptionId": "1111-2222-3333-4444-5555",
+    "tags": {
+        "group": "sandbox"
+    },
+    "tenantId": "aaaa-2222-cccc-4444-eeee",
+    "type": "microsoft.operationsmanagement/solutions",
+    "zones": null
+}

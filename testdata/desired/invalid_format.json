@@ -1,0 +1,18 @@
+{
+    "id": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/contosoPurview/providers/Microsoft.Purview/accounts/ContosoPurview",
+    "location": "eastus2",
+    "name": "ContosoPurview",
+    "plan": null,
+    "properties": {
+        "friendlyName": " Contoso",
+        "managedResourceGroupName": "managed-rg-pnmxcyy",
+        "provisioningState": "Succeeded",
+        "publicNetworkAccess": "Enabled"
+    },
+    "resourceGroup": "contosopurview",
+    "sku": {
+        "capacity": 4,
+        "name": "Standard"
+    },
+    "type": "microsoft.purview/accounts",
+    "zones": null

@@ -1,0 +1,54 @@
+{
+    "extendedLocation": null,
+    "id": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/contosoPurview/providers/Microsoft.Purview/accounts/ContosoPurview",
+    "identity": {
+        "principalId": "9999-8888-7777-6666-5555",
+        "tenantId": "aaaa-2222-cccc-4444-eeee",
+        "type": "SystemAssigned"
+    },
+    "kind": "",
+    "location": "eastus2",
+    "managedBy": "",
+    "name": "ContosoPurview",
+    "plan": null,
+    "properties": {
+        "cloudConnectors": {
+            "awsExternalId": "eeee-dddd-cccc-bbbb-aaaa"
+        },
+        "createdAt": "2020-12-03T21:33:57.3060178Z",
+        "createdBy": "hoge@contoso.com",
+        "createdByObjectId": "eeee-4444-cccc-2222-aaaa",
+        "endpoints": {
+            "catalog": "https://contosopurview.catalog.purview.azure.com",
+            "guardian": "https://contosopurview.guardian.purview.azure.com",
+            "scan": "https://contosopurview.scan.purview.azure.com"
+        },
+        "friendlyName": " Contoso",
+        "managedResourceGroupName": "managed-rg-pnmxcyy",
+        "managedResources": {
+            "eventHubNamespace": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/managed-rg-pnmxcyy/providers/Microsoft.EventHub/namespaces/hoge",
+            "resourceGroup": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/managed-rg-pnmxcyy",
+            "storageAccount": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/managed-rg-pnmxcyy/providers/Microsoft.Storage/storageAccounts/fuga"
+        },
+        "privateEndpointConnections": [],
+        "provisioningState": "Succeeded",
+        "publicNetworkAccess": "Enabled",
+        "systemData": {
+            "createdAt": "2020-12-03T21:33:57.3060178Z",
+            "createdBy": "hoge@contoso.com",
+            "createdByType": "User",
+            "lastModifiedAt": "2020-12-03T21:33:57.3060178Z",
+            "lastModifiedByType": "User"
+        }
+    },
+    "resourceGroup": "contosopurview",
+    "sku": {
+        "capacity": 4,
+        "name": "Standard"
+    },
+    "subscriptionId": "aaaa-bbbb-cccc-dddd-eeee",
+    "tags": {},
+    "tenantId": "aaaa-2222-cccc-4444-eeee",
+    "type": "microsoft.purview/accounts",
+    "zones": null
+}

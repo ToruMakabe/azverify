@@ -1,0 +1,17 @@
+[
+    {
+        "id": "/subscriptions/aaaa-bbbb-cccc-dddd-eeee/resourceGroups/contosoPurview/providers/Microsoft.Purview/accounts/ContosoPurview",
+        "location": "eastus2",
+        "name": "ContosoPurview",
+        "properties": {
+            "friendlyName": " Contoso",
+            "publicNetworkAccess": "Enabled"
+        },
+        "resourceGroup": "contosopurview",
+        "sku": {
+            "capacity": 4,
+            "name": "Standard"
+        },
+        "type": "microsoft.purview/accounts"
+    }
+]

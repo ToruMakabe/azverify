@@ -1,0 +1,18 @@
+environment = "public"
+
+[tenant]
+id = ""
+
+[subscription]
+id = ""
+
+[client]
+id = ""
+secret = ""
+
+[certificate]
+path = ""
+password = ""
+
+[log]
+level = "INFO"
