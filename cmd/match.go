@@ -70,9 +70,9 @@ and query to Azure Resource Graph API, then check the difference.`,
 			for _, r := range rs {
 				log.Printf("[DEBUG] desired resource: %#v\n", r)
 				id := r.(map[string]interface{})["id"].(string)
-				log.Printf("[DEBUG] target resource id: %#v\n", id)
-				subs := strings.Split(strings.Trim(id, "/"), "/")
-				sub := subs[1]
+				log.Printf("[INFO] target resource id: %#v\n", id)
+				idf := strings.Split(strings.Trim(id, "/"), "/")
+				sub := idf[1]
 				log.Printf("[DEBUG] target subscription id: %#v\n", sub)
 
 				query := fmt.Sprintf("where id == '%s'", id)
@@ -89,7 +89,7 @@ and query to Azure Resource Graph API, then check the difference.`,
 				case int64(1):
 					log.Printf("[DEBUG] found the resource. id: %s\n", id)
 				default:
-					log.Printf("[DEBUG] the resource is not unique. id: %s\n", id)
+					log.Printf("[ERROR] the resource is not unique. id: %s\n", id)
 					failFlag = true
 					continue
 				}
