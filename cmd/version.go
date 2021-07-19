@@ -7,7 +7,8 @@ import (
 )
 
 var (
-	Version = "v0.0.1"
+	// Inject the version with GoReleaser
+	Version = "unset"
 )
 
 var versionCmd = &cobra.Command{
